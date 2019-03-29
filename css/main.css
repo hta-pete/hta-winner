@@ -98,7 +98,7 @@ html, body {
 }
 @media (max-width: 480px) {
   #main {
-    padding: 15px 15px 0 15px;
+    padding: 0;
   }
 }
 
@@ -153,6 +153,7 @@ form {
 @media (max-width: 480px) {
   form {
     padding: 0 0 260px 0;
+    border-radius: 0;
   }
 }
 form .event-date {
@@ -186,11 +187,12 @@ form h2 img {
 }
 @media (max-width: 480px) {
   form h2 {
-    font-size: 22px;
+    font-size: 24px;
+    border-radius: 0;
   }
   form h2 img {
-    height: 50px;
-    vertical-align: -25px;
+    height: 55px;
+    vertical-align: -26px;
   }
 }
 form h3 {
