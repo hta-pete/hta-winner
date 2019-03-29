@@ -276,6 +276,7 @@ form{
         font-size:16px;
         border:1px solid #ccc;
         border-radius:6px;
+        -webkit-appearance: none; 
         @include transition(border-color 0.8s $easeOutExpo);
         &:focus{
             outline:none;

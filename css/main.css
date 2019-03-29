@@ -294,6 +294,7 @@ form input[type="text"], form input[type="email"] {
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 6px;
+  -webkit-appearance: none;
   -webkit-transition: border-color 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   -moz-transition: border-color 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   -ms-transition: border-color 0.8s cubic-bezier(0.19, 1, 0.22, 1);
