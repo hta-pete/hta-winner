@@ -152,7 +152,7 @@ form {
 }
 @media (max-width: 480px) {
   form {
-    padding: 0 0 260px 0;
+    padding: 0 0 300px 0;
     border-radius: 0;
   }
 }
@@ -169,7 +169,7 @@ form .event-date {
   form .event-date {
     font-size: 15px;
     right: 25px;
-    bottom: 160px;
+    bottom: 180px;
   }
 }
 form h2 {
