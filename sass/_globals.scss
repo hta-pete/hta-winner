@@ -134,7 +134,7 @@ footer{
 }
 
 
-form{
+.form{
     padding:0 0 360px 0;
     background:white;
     border:5px solid white;
@@ -302,6 +302,22 @@ form{
         @include transition(background 0.8s $easeOutExpo);
         &:hover{
             background:darken($gold, 10%);
+        }
+    }
+    .code{
+        text-align:center;
+        margin-top:25px;
+        padding:50px 20px;
+        background:$gold;
+        color:#111;
+        p{
+            max-width:250px;
+            margin:0 auto 15px auto;
+            font-size:18px;
+        }
+        span{
+            font-weight:900;
+            font-size:40px;
         }
     }
 }

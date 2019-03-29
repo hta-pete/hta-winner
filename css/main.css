@@ -142,7 +142,7 @@ footer a:hover {
   }
 }
 
-form {
+.form {
   padding: 0 0 360px 0;
   background: white;
   border: 5px solid white;
@@ -151,12 +151,12 @@ form {
   background-size: 90% auto;
 }
 @media (max-width: 480px) {
-  form {
+  .form {
     padding: 0 0 300px 0;
     border-radius: 0;
   }
 }
-form .event-date {
+.form .event-date {
   text-align: center;
   font-style: italic;
   font-weight: 700;
@@ -166,13 +166,13 @@ form .event-date {
   bottom: 230px;
 }
 @media (max-width: 480px) {
-  form .event-date {
+  .form .event-date {
     font-size: 15px;
     right: 25px;
     bottom: 180px;
   }
 }
-form h2 {
+.form h2 {
   text-align: center;
   padding: 30px 0 15px 0;
   background: #111;
@@ -181,21 +181,21 @@ form h2 {
   font-style: italic;
   border-radius: 20px 20px 0 0;
 }
-form h2 img {
+.form h2 img {
   display: inline-block;
   vertical-align: -34px;
 }
 @media (max-width: 480px) {
-  form h2 {
+  .form h2 {
     font-size: 24px;
     border-radius: 0;
   }
-  form h2 img {
+  .form h2 img {
     height: 55px;
     vertical-align: -26px;
   }
 }
-form h3 {
+.form h3 {
   display: block;
   text-align: center;
   margin: 20px 0;
@@ -205,46 +205,46 @@ form h3 {
   letter-spacing: -0.5px;
 }
 @media (max-width: 480px) {
-  form h3 {
+  .form h3 {
     font-size: 18px;
     letter-spacing: 0;
   }
 }
-form .fields {
+.form .fields {
   padding: 0 50px;
 }
 @media (max-width: 480px) {
-  form .fields {
+  .form .fields {
     padding: 0 15px;
   }
 }
-form .field {
+.form .field {
   margin-bottom: 20px;
 }
-form .field:last-child {
+.form .field:last-child {
   margin-bottom: 0;
 }
-form .questions {
+.form .questions {
   margin-top: 20px;
 }
-form .form-question {
+.form .form-question {
   margin-bottom: 20px;
 }
-form .form-question:last-child {
+.form .form-question:last-child {
   margin-bottom: 0;
 }
-form .form-opt-in {
+.form .form-opt-in {
   margin-top: 30px;
 }
-form .form-opt-in input {
+.form .form-opt-in input {
   vertical-align: 2px;
 }
 @media (max-width: 480px) {
-  form .form-opt-in input {
+  .form .form-opt-in input {
     vertical-align: 0;
   }
 }
-form label {
+.form label {
   display: inline-block;
   margin-bottom: 6px;
   font-size: 15px;
@@ -252,12 +252,12 @@ form label {
   font-style: italic;
   color: #c8a760;
 }
-form .required-marker {
+.form .required-marker {
   font-size: 15px;
   color: #777;
   font-weight: 400;
 }
-form .select {
+.form .select {
   display: block;
   width: 100%;
   height: 40px;
@@ -270,7 +270,7 @@ form .select {
   background-color: white;
   color: #111;
 }
-form .select select {
+.form .select select {
   width: 100%;
   height: 40px;
   padding: 0 15px;
@@ -282,10 +282,10 @@ form .select select {
   -webkit-appearance: none;
   color: #111;
 }
-form .select select:focus {
+.form .select select:focus {
   outline: none;
 }
-form input[type="text"], form input[type="email"] {
+.form input[type="text"], .form input[type="email"] {
   display: block;
   width: 100%;
   height: 40px;
@@ -301,11 +301,11 @@ form input[type="text"], form input[type="email"] {
   -o-transition: border-color 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   transition: border-color 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 }
-form input[type="text"]:focus, form input[type="email"]:focus {
+.form input[type="text"]:focus, .form input[type="email"]:focus {
   outline: none;
   border-color: #444;
 }
-form input[type="submit"] {
+.form input[type="submit"] {
   display: block;
   margin-top: 30px;
   width: 100%;
@@ -327,8 +327,24 @@ form input[type="submit"] {
   -o-transition: background 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   transition: background 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 }
-form input[type="submit"]:hover {
+.form input[type="submit"]:hover {
   background: #b6903f;
+}
+.form .code {
+  text-align: center;
+  margin-top: 25px;
+  padding: 50px 20px;
+  background: #c8a760;
+  color: #111;
+}
+.form .code p {
+  max-width: 250px;
+  margin: 0 auto 15px auto;
+  font-size: 18px;
+}
+.form .code span {
+  font-weight: 900;
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=main.css.map */
