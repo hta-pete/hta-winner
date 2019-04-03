@@ -27,52 +27,6 @@ footer, header, hgroup, menu, nav, section {
 }
 
 /* ––––––––––––––––––––––––––––––––––––––––––––
-HELPERS
-––––––––––––––––––––––––––––––––––––––––––– */
-.clearfix {
-  *zoom: 1;
-}
-
-.clearfix:before,
-.clearfix:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
-
-.clearfix:after {
-  clear: both;
-}
-.clear{
-	clear:both;
-}
-*,
-*:after,
-*:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-a{
-    text-decoration:none;
-}
-
-.flex-v{
-    display:flex;
-    align-items:center;
-}
-.flex-all{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-/* ––––––––––––––––––––––––––––––––––––––––––––
-TYPOGRAPHY
-––––––––––––––––––––––––––––––––––––––––––– */
-
-
-/* ––––––––––––––––––––––––––––––––––––––––––––
 GLOBAL STYLES
 ––––––––––––––––––––––––––––––––––––––––––– */
 html,body{
@@ -99,22 +53,9 @@ html,body{
 	margin:0 auto;
 }
 
-header{
-    padding:40px 0 20px 0;
-    text-align:center;
-    h2{
-        font-size:36px;
-        color:$gold;
-        font-style:italic;
-        img{
-            display:inline-block;
-            vertical-align:-38px;
-        }
-    }
-}
-
-
-
+/* ––––––––––––––––––––––––––––––––––––––––––––
+FOOTER
+––––––––––––––––––––––––––––––––––––––––––– */
 footer{
     padding:50px 0 70px 0;
     text-align:center;
@@ -133,7 +74,9 @@ footer{
 
 }
 
-
+/* ––––––––––––––––––––––––––––––––––––––––––––
+FORM
+––––––––––––––––––––––––––––––––––––––––––– */
 .form{
     padding:0 0 360px 0;
     background:white;
@@ -305,6 +248,92 @@ footer{
         }
     }
     .code{
+        text-align:center;
+        margin-top:25px;
+        padding:50px 20px;
+        background:$gold;
+        color:#111;
+        p{
+            max-width:250px;
+            margin:0 auto 15px auto;
+            font-size:18px;
+        }
+        span{
+            font-weight:900;
+            font-size:40px;
+        }
+    }
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––
+WINNER (Thank You Page)
+––––––––––––––––––––––––––––––––––––––––––– */
+.winner{
+    padding:0 0 360px 0;
+    background:white;
+    border:5px solid white;
+    border-radius:20px;
+    background:white url(../img/vegas-skyline.png) no-repeat center bottom;
+    background-size:90% auto;
+    @media (max-width:480px){
+        padding:0 0 300px 0;
+        border-radius:0;
+    }
+    .event-date{
+        text-align:center;
+        font-style:italic;
+        font-weight:700;
+        font-size:17px;
+        position:absolute;
+        right:80px;
+        bottom:230px;
+        @media (max-width:480px){
+            font-size:15px;
+            right:25px;
+            bottom:180px;
+        }
+    }
+    h2{
+        text-align:center;
+        padding:30px 0 15px 0;
+        background:#111;
+        font-size:30px;
+        color:$gold;
+        font-style:italic;
+        border-radius:20px 20px 0 0;
+        img{
+            display:inline-block;
+            vertical-align:-34px;
+        }
+        @media (max-width:480px){
+            font-size:24px;
+            border-radius:0;
+            img{
+                height:55px;
+                vertical-align:-26px;
+            }
+        }
+    }
+    h3{
+        display:block;
+        text-align:center;
+        margin:20px 0;
+        font-size:23px;
+        line-height:1.2;
+        font-style:italic;
+        letter-spacing:-0.5px;
+        @media (max-width:480px){
+            font-size:18px;
+            letter-spacing:0;
+        }
+    }
+    .winner-message{
+        padding:0 50px;
+        @media (max-width:480px){
+            padding:0 15px;
+        }
+    }
+    .winner-message_code{
         text-align:center;
         margin-top:25px;
         padding:50px 20px;
